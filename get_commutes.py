@@ -8,7 +8,7 @@ import time
 from calendar import timegm
 
 PER_PAGE = 10  
-TOKEN = "afd90cd6d25c4c419cffb415aecaa8cd000737d3"
+TOKEN = "<YOUR STRAVA API KEY>"
 start_date = ''
 end_date = ''
 
