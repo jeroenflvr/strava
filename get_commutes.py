@@ -7,13 +7,15 @@ import sys,getopt
 import time
 from calendar import timegm
 
+PER_PAGE = 10  
+TOKEN = "afd90cd6d25c4c419cffb415aecaa8cd000737d3"
 start_date = ''
 end_date = ''
-PER_PAGE = 10  
+
 url = "https://www.strava.com/api/v3/athlete/activities"
 headers = {
  'accept': "application/json",
- 'authorization': "Bearer afd90cd6d25c4c419cffb415aecaa8cd000737d3",
+ 'authorization': "Bearer " + TOKEN,
  'cache-control': "no-cache",
 }
 
